@@ -19,4 +19,3 @@
 <ul> (Upper) medians of repeated agar dilution testing and interpretations (according to EUCAST/CLSI guidelines as appropriate)</ul>
 </ul>
 
-### Included scripts
