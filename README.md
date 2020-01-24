@@ -5,7 +5,7 @@
 
 ### Contents
 <ol>
-  <li> raw_data: MIC data, files of identified genes and the original ARIBA reports (note original reports included but code analysis starts downstream from these)</li>
+  <li> raw_data: MIC data, files of identified genes and the original ARIBA reports (</li>
   <li> rule_based_resistance_prediction: Code and files required to recreate the rules based resistance prediction analysis </li>
   <li> model_based_resistance_prediction: Code and files required to recreate the model based resistance prediction analysis </li>
   </ol>
