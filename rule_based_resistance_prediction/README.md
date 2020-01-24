@@ -7,3 +7,5 @@
 
 
 ###### Rule based resistance predictions in resistance_predictions.csv, Note this code also generates the model_elements_and_coverages.json required for the modelling code
+
+Please note there are duplicates of input files in this directory to enable this directory to be downloaded and run as a stand alone.
