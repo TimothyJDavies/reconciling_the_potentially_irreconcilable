@@ -11,3 +11,7 @@
   </ol>
 
 ######For any questions, please submit an issue on this github page.
+
+If using this code/data, please cite
+
+<pr> Davies TJ, Stoesser N, Sheppard AE, Abuoun M, Fowler P, Swann J, Quan TP, Griffiths D, Vaughan A, Morgan M, Phan HT, Jeffery KJ, Andersson M, Ellington MJ, Ekelund O, Mathers AJ, Bonomo RA, Woodford N, Crook DW, Peto TEA, Anjum MF, Walker AS. 2019. Reconciling the potentially irreconcilable? Genotypic and phenotypic amoxicillin-clavulanate resistance in Escherichia coli. bioRxiv 511402. <pr>
