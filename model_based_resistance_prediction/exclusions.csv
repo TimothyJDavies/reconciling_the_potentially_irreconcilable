@@ -1,0 +1,12 @@
+﻿isolate,element,description
+AMC_227,CTXM_buj2be,blaCTX-M-55 not seen in training data
+AMC_251,OTHER_bla,blaSHV-12 not seen in training data
+AMC_336,CTXM_buj2be,blaCTX-M-9 not seen in training data
+AMC_360,OTHER_bla,blaSHV-12 not seen in training data
+AMC_629,OTHER_bla,blaCMY-99 not seen in traning data
+AMC_667,OTHER_bla,blaSHV-12 not seen in training data
+AMC_754,CTXM_buj2be,blaCTX-M-55 not seen in training data
+AMC_892,OTHER_bla,blaCMY-60 not seen in traning data
+AMC_815,TEM_buj2b,only partial blaTEM identified
+AMC_671,OXA_buj2d,only partial blaOXA identified
+AMC_142,OTHER_bla,only partial blaCMY identified
