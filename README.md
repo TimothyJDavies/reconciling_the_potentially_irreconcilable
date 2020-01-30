@@ -24,7 +24,7 @@ This folder has contains the basline metadata linked to sequence files in https:
 
 #### rule_based_resistance_prediction
 
-This folder runs the rule based resistance prediction section of the paper, which as well as making isolate specific predictions, also reconstructs images 2 and 4 from the paper.To run this code, you will need to run the rule_based_resistance_prediction_and_analysis.ipynb notebook which takes you through the analysis, with comments as to what each section is doing. Data required for this analysis are also present in this folder so it can be downloaded standalone
+This folder runs the rule based resistance prediction section of the paper, which as well as making isolate specific predictions, also reconstructs images 2 and 4 from the paper.To run this code, you will need to run the **rule_based_resistance_prediction_and_analysis.ipynb** notebook which takes you through the analysis, with comments as to what each section is doing. Data required for this analysis are also present in this folder so it can be downloaded standalone
 
 Specifically this code , written using Python 3, also requires the following python modules
 - Biopython
@@ -37,8 +37,8 @@ Specifically this code , written using Python 3, also requires the following pyt
 #### model_based_resistance_prediction
 
 This folder runs the mixed model based prediction section of the paper. Note this section uses both python and STATA code.
-Python is used (model_interpretations_of_genetic_features.ipynb) to first categorize elements into model components, and then create a dataset with these model components and linked MICs (model_base.csv).
-This file is then imported to STATA and used as the basis for mixed modelling. Code for this is process is in (model_fitting_and_prediction.do) which, as well as going through the fitting proceedure also then performs prediction at the end of the model. Output of this is then passed back to a ipython notebook to produce Figure 5 in the paper (make_model_graph.ipynb)
+Python is used (**model_interpretations_of_genetic_features.ipynb**) to first categorize elements into model components, and then create a dataset with these model components and linked MICs (model_base.csv).
+This file is then imported to STATA and used as the basis for mixed modelling. Code for this is process is in (**model_fitting_and_prediction.do**) which, as well as going through the fitting proceedure also then performs prediction at the end of the model. Output of this is then passed back to a ipython notebook to produce Figure 5 in the paper (**make_model_graph.ipynb**)
 
 To run this code you will need 
 - STATA 14.2 or later
