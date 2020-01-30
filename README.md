@@ -57,7 +57,7 @@ Additionally , post this code we have included the code we use for our cross val
 
 ###### Note
 
-The mixed model used was developed to reflect associations between resistance elements and agar-dilution MIC as accurately as possible. However, having developed the model, an obvious question is whether the fixed effect estimates could provide accurate MIC predictions. We therefore stress that the techniques could be used as basis of MIC predcition in amoxicillin-clavulanate, the exact model fitted was specific to this paper. Should one wish to use this approach on their own data they will need to re-fit their own mixed model.
+The mixed model used was developed to reflect associations between resistance elements and agar-dilution MIC as accurately as possible. However, having developed the model, an obvious question is whether the fixed effect estimates could provide accurate MIC predictions. We therefore stress that the techniques could be used as basis of MIC predcition, the exact model fitted was specific to this paper. Should one wish to use this approach on their own data they will need to re-fit their own mixed model.
 
 ###### For any questions, please submit an issue on this github page.
 
