@@ -10,5 +10,5 @@
   </ol>
 
 
-######To create and run models from genetic and MIC data. Note also cross validation code included as extra. For detailed information on what each file is, see annotations in code.
-####### Please note there are duplicates of input files in this directory to enable everything to be run in the same directory
+###### To create and run models from genetic and MIC data. Note also cross validation code included as extra. For detailed information on what each file is, see annotations in code.
+###### Please note there are duplicates of input files in this directory to enable everything to be run in the same directory
