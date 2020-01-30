@@ -1,5 +1,6 @@
 # CODE and DATA for Reconciling the potentially irreconcilable? Genotypic and phenotypic amoxicillin-clavulanate resistance in Escherichia coli
 
+<pr> The paper relating to this code can currently be accessed at https://www.biorxiv.org/content/10.1101/511402v1 </pr>
 <pr> Note all genetic data available at https://www.ncbi.nlm.nih.gov/bioproject/PRJNA540750 </pr>
 
 
@@ -34,7 +35,29 @@ Specifically this code , written using Python 3, also requires the following pyt
 - Pylab
 
 #### model_based_resistance_prediction
-T
+
+This folder runs the mixed model based prediction section of the paper. Note this section uses both python and STATA code.
+Python is used (model_interpretations_of_genetic_features.ipynb) to first categorize elements into model components, and then create a dataset with these model components and linked MICs (model_base.csv).
+This file is then imported to STATA and used as the basis for mixed modelling. Code for this is process is in (model_fitting_and_prediction.do) which, as well as going through the fitting proceedure also then performs prediction at the end of the model. Output of this is then passed back to a ipython notebook to produce Figure 5 in the paper (make_model_graph.ipynb)
+
+To run this code you will need 
+- STATA 14.2 or later
+- Numpy
+- Pandas
+- Matplotlib
+
+To Summarize, to run this you 
+1. run model_interpretations_of_genetic_features.ipynb to create a model base
+2. run model_fitting_and_prediction.do to fit the model and predict MICs
+3. run make_model_graph.ipynb to reproduce figure 5
+
+
+Additionally , post this code we have included the code we use for our cross validation of the model, as detailed in the paper supplement.
+
+
+###### Note
+
+The mixed model used was developed to reflect associations between resistance elements and agar-dilution MIC as accurately as possible. However, having developed the model, an obvious question is whether the fixed effect estimates could provide accurate MIC predictions. We therefore stress that the techniques could be used as basis of MIC predcition in amoxicillin-clavulanate, the exact model fitted was specific to this paper. Should one wish to use this approach on their own data they will need to re-fit their own mixed model.
 
 ###### For any questions, please submit an issue on this github page.
 
