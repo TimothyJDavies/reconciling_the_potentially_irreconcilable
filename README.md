@@ -1,6 +1,6 @@
 # CODE and DATA for Reconciling the potentially irreconcilable? Genotypic and phenotypic amoxicillin-clavulanate resistance in Escherichia coli
 
-<pr> The paper relating to this code can currently be accessed at https://www.biorxiv.org/content/10.1101/511402v1 </pr>
+<pr> The paper relating to this code can currently be accessed at https://aac.asm.org/content/early/2020/03/18/AAC.02026-19.long </pr>
 <pr> Note all genetic data available at https://www.ncbi.nlm.nih.gov/bioproject/PRJNA540750 </pr>
 
 
@@ -64,6 +64,5 @@ The mixed model used was developed to reflect associations between resistance el
 The paper related to this data/code is currently under review, full citation will be updated once published. In the interim, 
 if using this code/data, please cite
 
-DOI: https://doi.org/10.1101/511402
-
-<pr> Davies TJ, Stoesser N, Sheppard AE, Abuoun M, Fowler P, Swann J, Quan TP, Griffiths D, Vaughan A, Morgan M, Phan HT, Jeffery KJ, Andersson M, Ellington MJ, Ekelund O, Mathers AJ, Bonomo RA, Woodford N, Crook DW, Peto TEA, Anjum MF, Walker AS. 2019. Reconciling the potentially irreconcilable? Genotypic and phenotypic amoxicillin-clavulanate resistance in Escherichia coli. bioRxiv 511402. <pr>
+DOI: 10.1128/AAC.02026-19
+<pr> DDavies TJ, Stoesser N, Sheppard AE, Abuoun M, Fowler P, Swann J, Quan TP, Griffiths D, Vaughan A, Morgan M, Phan HTT, Jeffery KJ, Andersson M, Ellington MJ, Ekelund O, Woodford N, Mathers AJ, Bonomo RA, Crook DW, Peto TEA, Anjum MF, Walker AS. 2020. Reconciling the potentially irreconcilable? Genotypic and phenotypic amoxicillin-clavulanate resistance in Escherichia coli. Antimicrob Agents Chemother. <pr>
